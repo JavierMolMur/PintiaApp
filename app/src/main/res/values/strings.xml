@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">PintiaApp</string>
+
+    <string name="title_ciudad_vaccea">Trama urbana de la ciudad Vaccea</string>
+
+    <string name="texto_vaccea">La organización urbana de las ciudades vacceas, como Pintia, refleja una planificación funcional adaptada al entorno natural.
+        Estas ciudades se situaban estratégicamente cerca de recursos hídricos, como ríos o arroyos, y a menudo en zonas elevadas para facilitar su defensa.
+        \nLas ciudades estaban divididas en áreas específicas, como:
+        \n \t \t \t \t<b>Área Habitacional:</b>
+        \n \t \t \t \t Con casas de planta rectangular o circular hechas de adobe, madera y cubiertas vegetales.
+        \n \t \t \t \t <b>Áreas de Trabajo:</b>
+        \n \t \t \t \t Incluyendo talleres artesanales para cerámica, metalurgia o textiles.
+        \n \t \t \t \t <b>Cementerios:</b>
+        \n \t \t \t \t Separados del núcleo urbano, como la Necrópolis de Las Ruedas en Pintia.
+        \n \nLa trama urbana estaba protegida por sistemas defensivos avanzados:
+        \n Murallas construidas con adobe y madera, reforzadas por bastiones.
+        \n Fosos: Sistemas de defensa con varios niveles, como los tres fosos consecutivos en Pintia.
+    </string>
+
+    <string name="pregunta_vacceas1">¿Dónde solían ubicarse las ciudades vacceas?</string>
+    <string name="vaccea_test1_opcion1">En llanuras sin ríos cercanos.</string>
+    <string name="vaccea_test1_opcion2">En zonas elevadas y cerca de ríos o arroyos.</string>
+    <string name="vaccea_test1_opcion3">Dentro de bosques densos.</string>
+    <string name="vaccea_test1_opcion4">Dentro de bosques densos.</string>
+
+    <string name="pregunta_vacceas2">¿Cuál era la principal función de los fosos en las ciudades vacceas?</string>
+    <string name="vaccea_test2_opcion1">Servían como caminos para el comercio.</string>
+    <string name="vaccea_test2_opcion2">Se usaban para recolectar agua de lluvia.</string>
+    <string name="vaccea_test2_opcion3">Eran parte del sistema defensivo contra invasores.</string>
+    <string name="vaccea_test2_opcion4">Se usaban como almacenes subterráneos.</string>
+
+
+
+    <string name="title_foro">Foro de la ciudad romana</string>
+
+    <string name="texto_foro">El foro era el centro político, administrativo, comercial y religioso de las ciudades romanas.
+        En él se encontraban edificios clave como la basílica, templos, mercados y espacios para reuniones públicas.
+        \n Estructura del foro:
+        \n \t \t \t \t <b>Basílica y Edificios Administrativos:</b>
+        \n \t \t \t \t Centro de gobierno local, donde se impartía justicia y se organizaba la ciudad.
+        \n \t \t \t \t <b>Templos:</b>
+        \n \t \t \t \t Lugares de culto a dioses romanos, que en Pintia podrían haber estado dedicados a deidades sincretizadas con creencias vacceas.
+        \n \t \t \t \t <b>Mercados:</b>
+        \n \t \t \t \t Espacios comerciales donde se realizaban transacciones y se vendían productos locales.
+    </string>
+
+    <string name="pregunta_foro1">¿Cuál era la función principal del foro en las ciudades romanas?</string>
+    <string name="foro_test1_opcion1">Solo servía como un área de culto religioso.</string>
+    <string name="foro_test1_opcion2">Era el centro político, administrativo, comercial y religioso.</string>
+    <string name="foro_test1_opcion3">Un lugar exclusivo para el comercio de esclavos.</string>
+    <string name="foro_test1_opcion4">Un espacio recreativo para juegos y espectáculos.</string>
+
+    <string name="pregunta_foro2">¿Qué edificios se podían encontrar en un foro romano?</string>
+    <string name="foro_test2_opcion1">Basílica, templos, mercados y espacios para reuniones.</string>
+    <string name="foro_test2_opcion2">Circos, anfiteatros y teatros.</string>
+    <string name="foro_test2_opcion3">Solo templos religiosos.</string>
+    <string name="foro_test2_opcion4">Castillos y murallas defensivas.</string>
+
+
+
+
+
+    <string name="title_romana">Trama urbana de la época romana</string>
+
+    <string name="texto_romana">La planificación urbana romana se caracterizaba por su organización geométrica y funcionalidad, basada en un modelo de calles
+        en cuadrícula y la integración de edificios clave para la vida pública. Este modelo permitió la creación de ciudades estructuradas y eficientes,
+        muchas de las cuales aún influyen en el diseño urbano moderno. En Hispania, muchas ciudades indígenas fueron romanizadas siguiendo esta estructura.
+        En algunos casos, se adaptaron a la topografía local en lugar de seguir un diseño completamente cuadriculado.
+    </string>
+
+    <string name="pregunta_romana1">¿Cómo se caracterizaba la planificación urbana romana?</string>
+    <string name="romana_test1_opcion1">Con calles desordenadas y sin planificación.</string>
+    <string name="romana_test1_opcion2">Con un modelo de calles en cuadrícula y edificios clave.</string>
+    <string name="romana_test1_opcion3">Con viviendas construidas al azar sin espacios públicos.</string>
+    <string name="romana_test1_opcion4">Con solo templos y mercados sin organización.</string>
+
+    <string name="pregunta_romana2">¿Cómo se adaptó el urbanismo romano en Hispania?</string>
+    <string name="romana_test2_opcion1">Se impuso siempre un diseño cuadriculado sin excepciones.</string>
+    <string name="romana_test2_opcion2">No hubo cambios, las ciudades indígenas mantuvieron su estructura original.</string>
+    <string name="romana_test2_opcion3">Se romanizaron muchas ciudades, pero algunas se adaptaron a la topografía local.</string>
+    <string name="romana_test2_opcion4">Solo las ciudades más grandes siguieron el modelo romano, las pequeñas no cambiaron.</string>
+
+
+    <string name="title_hoyos">Los hoyos</string>
+
+    <string name="texto_hoyos">Los Hoyos es un área situada a unos 150 metros de la muralla de Pintia, en la zona de acceso hacia la ciudad.
+        Se encuentra en un cruce de caminos estratégico y está relacionada con episodios bélicos ocurridos en la región durante la romanización.
+        Los estudios indican que esta estructura pudo haber sido un muro de asedio romano, construido durante los conflictos sertorianos en el siglo I a.C.
+        Su posición bloqueaba el paso natural hacia Pintia, dificultando el acceso a la ciudad y limitando los movimientos de los defensores vacceos.
+    </string>
+
+    <string name="pregunta_hoyos1">¿Qué se encontró en la zona de Los Hoyos en Pintia?</string>
+    <string name="hoyos_test1_opcion1">Un templo dedicado a los dioses romanos.</string>
+    <string name="hoyos_test1_opcion2">Un muro de mampostería con un foso profundo.</string>
+    <string name="hoyos_test1_opcion3">Un anfiteatro para espectáculos.</string>
+    <string name="hoyos_test1_opcion4">Un mercado vacceo.</string>
+
+    <string name="pregunta_hoyos2">¿Cuál es la posible función de la estructura hallada en Los Hoyos?</string>
+    <string name="hoyos_test2_opcion1">Un puente para cruzar el río Duero.</string>
+    <string name="hoyos_test2_opcion2">Un almacén de cerámica vaccea.</string>
+    <string name="hoyos_test2_opcion3">Un campamento para comerciantes.</string>
+    <string name="hoyos_test2_opcion4">Un muro de asedio construido por los romanos.</string>
+
+
+
+    <string name="resultados_title">Resultados de los test</string>
+    <string name="resolver">RESOLVER</string>
+
+</resources>

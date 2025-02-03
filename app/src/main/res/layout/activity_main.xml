@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFE880"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textoInfo"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Toca una zona del mapa para obtener información"
+        android:textAlignment="center"
+        android:textColor="#0D0C0C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageMapa"
+        android:layout_width="0dp"
+        android:layout_height="511dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textoInfo"
+        app:layout_constraintVertical_bias="0"
+        app:srcCompat="@drawable/mapa_pintia" />
+
+    <Button
+        android:id="@+id/buttonVaccea"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageMapa"
+        app:layout_constraintEnd_toEndOf="@id/imageMapa"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="@id/imageMapa"
+        app:layout_constraintTop_toTopOf="@id/imageMapa"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonForo"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@id/imageMapa"
+        app:layout_constraintEnd_toEndOf="@id/imageMapa"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="@id/imageMapa"
+        app:layout_constraintTop_toTopOf="@id/imageMapa"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/buttonRomana"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageMapa"
+        app:layout_constraintEnd_toEndOf="@id/imageMapa"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="@id/imageMapa"
+        app:layout_constraintTop_toTopOf="@id/imageMapa"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <Button
+        android:id="@+id/buttonHoyos"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/imageMapa"
+        app:layout_constraintEnd_toEndOf="@id/imageMapa"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="@id/imageMapa"
+        app:layout_constraintTop_toTopOf="@id/imageMapa"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <Button
+        android:id="@+id/buttonResultados"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#D1AF5F"
+        android:fontFamily="sans-serif"
+        android:text="Mostrar puntuación"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageMapa"
+        app:layout_constraintVertical_bias="0.75" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
