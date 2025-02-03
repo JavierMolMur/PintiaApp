@@ -28,12 +28,12 @@ class ResultadosActivity : AppCompatActivity() {
         }
 
         val sharedPreferences: SharedPreferences = getSharedPreferences("Resultados", MODE_PRIVATE)
-        val aciertos1 = sharedPreferences.getInt("aciertos1", 0)
-        val aciertos2 = sharedPreferences.getInt("aciertos2", 0)
-        val aciertos3 = sharedPreferences.getInt("aciertos3", 0)
-        val aciertos4 = sharedPreferences.getInt("aciertos4", 0)
-        val aciertosTotales = aciertos1 + aciertos2 + aciertos3 + aciertos4
-        val porcentaje = aciertosTotales.toDouble() / 8 * 100
+        var aciertos1 = sharedPreferences.getInt("aciertos1", 0)
+        var aciertos2 = sharedPreferences.getInt("aciertos2", 0)
+        var aciertos3 = sharedPreferences.getInt("aciertos3", 0)
+        var aciertos4 = sharedPreferences.getInt("aciertos4", 0)
+        var aciertosTotales = aciertos1 + aciertos2 + aciertos3 + aciertos4
+        var porcentaje = aciertosTotales.toDouble() / 8 * 100
 
         val textViewResultados = findViewById<TextView>(R.id.resultados)
         textViewResultados.text = "Trama urbana de la ciudad Vaccea: $aciertos1" +
@@ -56,11 +56,12 @@ class ResultadosActivity : AppCompatActivity() {
             editor.putInt("aciertos3", 0)
             editor.putInt("aciertos4", 0)
             editor.apply()
-            val aciertos1 = sharedPreferences.getInt("aciertos1", 0)
-            val aciertos2 = sharedPreferences.getInt("aciertos2", 0)
-            val aciertos3 = sharedPreferences.getInt("aciertos3", 0)
-            val aciertos4 = sharedPreferences.getInt("aciertos4", 0)
-            val porcentaje = aciertosTotales.toDouble() / 8 * 100
+            aciertos1 = sharedPreferences.getInt("aciertos1", 0)
+            aciertos2 = sharedPreferences.getInt("aciertos2", 0)
+            aciertos3 = sharedPreferences.getInt("aciertos3", 0)
+            aciertos4 = sharedPreferences.getInt("aciertos4", 0)
+            aciertosTotales = aciertos1 + aciertos2 + aciertos3 + aciertos4
+            porcentaje = aciertosTotales.toDouble() / 8 * 100
 
             textViewResultados.text = "Trama urbana de la ciudad Vaccea: $aciertos1" +
                     "\nForo de la ciudad romana: $aciertos2" +

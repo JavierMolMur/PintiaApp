@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PintiaApp</string>
 
+    <string name="title_mapa">Toca una zona del mapa para obtener información y resolver tests</string>
     <string name="title_ciudad_vaccea">Trama urbana de la ciudad Vaccea</string>
 
     <string name="texto_vaccea">La organización urbana de las ciudades vacceas, como Pintia, refleja una planificación funcional adaptada al entorno natural.
@@ -105,5 +106,6 @@
 
     <string name="resultados_title">Resultados de los test</string>
     <string name="resolver">RESOLVER</string>
+
 
 </resources>
