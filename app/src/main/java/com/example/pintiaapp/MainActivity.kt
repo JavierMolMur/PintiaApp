@@ -8,6 +8,10 @@ import android.content.Intent
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+/**
+ * Autor: Javier Molina
+ */
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,13 +62,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val sharedPreferences = getSharedPreferences("Resultados", MODE_PRIVATE)
-        val editor = sharedPreferences.edit()
-        editor.putInt("aciertos1", 0)
-        editor.putInt("aciertos2", 0)
-        editor.putInt("aciertos3", 0)
-        editor.putInt("aciertos4", 0)
-        editor.apply()
+
 
     }
 }

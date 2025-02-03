@@ -3,6 +3,10 @@ package com.example.pintiaapp
 import android.app.AlertDialog
 import android.content.Context
 
+/**
+ * Autor: Javier Molina
+ */
+
 object Utils {
 
     fun calcularAciertos(respuestasUsuario: List<Int>): List<Boolean> {

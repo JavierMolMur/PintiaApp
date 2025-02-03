@@ -1,7 +1,5 @@
 package com.example.pintiaapp
 
-import android.app.AlertDialog
-import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
@@ -11,6 +9,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+
+/**
+ * Autor: Javier Molina
+ */
 
 class InfoTest : AppCompatActivity() {
 
