@@ -16,7 +16,7 @@
             android:name=".ResultadosActivity"
             android:exported="false" />
         <activity
-            android:name=".InfoTest"
+            android:name=".InfoTestActivity"
             android:exported="false" />
         <activity
             android:name=".ForoActivity"

@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat
  * Autor: Javier Molina
  */
 
-class InfoTest : AppCompatActivity() {
+class InfoTestActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

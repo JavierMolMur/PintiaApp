@@ -30,28 +30,28 @@ class MainActivity : AppCompatActivity() {
         val buttonResultados = findViewById<Button>(R.id.buttonResultados)
 
         buttonVaccea.setOnClickListener {
-            val intent = Intent(this, InfoTest::class.java)
+            val intent = Intent(this, InfoTestActivity::class.java)
             intent.putExtra("layout", R.layout.activity_vaccea)
             intent.putExtra("actividad", "vaccea")
             startActivity(intent)
         }
 
         buttonForo.setOnClickListener {
-            val intent = Intent(this, InfoTest::class.java)
+            val intent = Intent(this, InfoTestActivity::class.java)
             intent.putExtra("layout", R.layout.activity_foro)
             intent.putExtra("actividad", "foro")
             startActivity(intent)
         }
 
         buttonRomana.setOnClickListener {
-            val intent = Intent(this, InfoTest::class.java)
+            val intent = Intent(this, InfoTestActivity::class.java)
             intent.putExtra("layout", R.layout.activity_romana)
             intent.putExtra("actividad", "romana")
             startActivity(intent)
         }
 
         buttonHoyos.setOnClickListener {
-            val intent = Intent(this, InfoTest::class.java)
+            val intent = Intent(this, InfoTestActivity::class.java)
             intent.putExtra("layout", R.layout.activity_hoyos)
             intent.putExtra("actividad", "hoyos")
             startActivity(intent)
